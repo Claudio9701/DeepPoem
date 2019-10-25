@@ -2,19 +2,20 @@
 
 Text Generation LSTM Keras model trained with Cesar Vallejo poems
 
-Los archivos "i2w.pk", "w2i.pk", "inference_model.py", "my_language_model_3.hdf5", "w2i.pk" deben estar en el mismo directorio.
+## Quick Start
 
-El proyecto esta desarrollado en Python 3.
+The project is developed in Python 3. The files "i2w.pk", "w2i.pk", "inference_model.py", "my_language_model_3.hdf5", "w2i.pk" must be in the same directory.
 
-Primero se debe ejecutar el siguiente comando en el terminal para instalar todas las librerías necesarias.
+First, the following command must be executed in the terminal to install all the necessary libraries.
 
 ```sh
 $ pip install requirements.txt
 ```
 
-Luego para generar el archivo txt con el poema:
+Then to generate the txt file with the poem:
+
 ```sh
 $ python inference_model.py INPUT
 ```
 
-INPUT es la palabra inicial que ingresará el usuario (recomendable probar con palabras como: amor, llorar, pena, etc.)
+INPUT is the initial word that the user will enter (it is advisable to try words like: love, cry, grief, etc.)
