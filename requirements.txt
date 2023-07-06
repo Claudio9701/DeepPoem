@@ -11,7 +11,7 @@ nltk==3.6.6
 numpy==1.22.0
 protobuf==3.18.3
 PyYAML==5.4
-scipy==1.1.0
+scipy==1.10.0
 six==1.11.0
 tensorboard==1.11.0
 tensorflow==2.11.1
