@@ -6,7 +6,7 @@ h5py==2.8.0
 Keras==3.9.0
 Keras-Applications==1.0.6
 Keras-Preprocessing==1.0.5
-Markdown==3.0.1
+Markdown==3.8.1
 nltk==3.9
 numpy==1.22.0
 protobuf==5.29.6
